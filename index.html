@@ -171,9 +171,9 @@
 
       <form>
         <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value="Kevin"><br>
+        <input type="text" value="Kevin"><br>
         <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" value="Jang"><br>
+        <input type="text" value="Jang"><br>
         <label for="buttons">Button:</label><br>
         <input type="button" value="Ping!"><br>
         <label for="checkboxes">Check this box:</label><br>
@@ -235,21 +235,22 @@
         </textarea>
       </form>
 
-      <p>MARCO</p>
-      <button onclick="showContent()">Show template content</button>
-      <template>
-        <p>POLO</p>
-      </template>
-      <script>
-        function showContent() {
-          var temp = document.getElementsByTagName("template")[0];
-          var clone = temp.content.cloneNode(true);
-          document.body.appendChild(clone);
-        }
-      </script>
-
       <p>End of main area.</p>
     </main>
+    
+    <p>MARCO</p>
+    <button onclick="showContent()">Show template content</button>
+    <template>
+      <p>POLO</p>
+    </template>
+    <script>
+      function showContent() {
+        var temp = document.getElementsByTagName("template")[0];
+        var clone = temp.content.cloneNode(true);
+        document.body.appendChild(clone);
+      }
+    </script>
+
     <section>
       <footer>
         <hr>
