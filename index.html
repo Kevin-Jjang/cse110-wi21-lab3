@@ -240,6 +240,13 @@
       <template>
         <p>POLO</p>
       </template>
+      <script>
+        function showContent() {
+          var temp = document.getElementsByTagName("template")[0];
+          var clone = temp.content.cloneNode(true);
+          document.main.appendChild(clone);
+        }
+      </script>
 
       <p>End of main area.</p>
     </main>
