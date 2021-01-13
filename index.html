@@ -53,6 +53,7 @@
           [F, Autumn, Snow, Warmth]<br>  
           <b>Kevin Jang</b></p>
 
+        <p>(details: open to read the poem)</p>
         <details>
           <summary><span style="color:blue">Fuzzy Fractals</span></summary>
           <pre>
@@ -164,7 +165,41 @@
 
       <form>
         <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Kevin"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Jang"><br>
+        <label for="buttons">Button:</label><br>
+        <input type="button" value="Ping!"><br>
+        <label for="checkboxes">Check this box:</label><br>
+        <input type="checkbox"><br>
+        <fieldset>
+          <legend>Dropdowns:</legend>
+          <label for="plants">Pick a plant:</label>
+          <select name="plants" id="plants">
+            <optgroup label="Red">
+              <option value="poppy">Poppy</option>
+              <option value="rose">Rose</option>
+            </optgroup>
+            <optgroup label="Purple">
+              <option value="chrysanthemum">Chrysanthemum</option>
+              <option value="lilac">Lilac</option>
+            </optgroup>
+            <option value="daisy">Daisy</option>
+          </select>
 
+          <label for="colors"> Choose a color from the dropdown: </label>
+          <input list="colors" name="color" id="color">
+          <datalist id="colors">
+            <option value="Red"></option>
+            <option value="Green"></option>
+            <option value="Blue"></option>
+          </datalist>
+        </fieldset>
+
+        <label for="comments">Questions:</label>
+        <textarea id="comments" name="comment" rows="2" cols="50">
+          Enter text here
+        </textarea>
       </form>
       <p>End of main area.</p>
     </main>
