@@ -5,6 +5,13 @@
       <meta name="author" content="Kevin Jang">
       <title>Kevin Jang's Website</title>
       <link rel="main" href="index.html">
+      <style>
+        .headers {
+          border: 2pm outset black;
+          background-color: darkkhaki;
+          text-align: center;
+        }
+      </style>
   </head>
   <body></body>
     <section>
@@ -20,15 +27,26 @@
       </header>
     </section>
     <main>
-      <h1>H1: Kevin Jang's HTML Page</h1>
+      <div class="headers">
+        <h1>H1: Kevin Jang's HTML Page</h1>
+      </div>
       <aside>
         <p>Aside: Is this my website?</p> 
       </aside>
+      <ol>
+        <li>Poetry section</li>
+        <li>Alchemy section</li>
+        <li>Dragon Boat section</li>
+      </ol>
       <p>Code:</p>
       <code>
         let FALSE = \x y -> \y
       </code>
-      <h2>H2: Poetry</h2>
+
+      <div class="headers">
+        <h2>H2: Poetry</h2>
+      </div>
+
         <p>December 2, 2020 #67<br>
           [F, Autumn, Snow, Warmth]<br>  
           <b>Kevin Jang</b></p>
@@ -48,6 +66,7 @@
           <em>In time for the sweater seasons.</em>
         </pre> 
 
+        <p>Canvas, svg, and picture:</p>
         <canvas id="myCanvas" width="300" height="75" style="border:2px solid #000000;">
         </canvas>
 
@@ -60,7 +79,13 @@
           <source media="(max-height:300pm)" srcset="fractals1.jpg">
           <img src="fractals2." alt="Fractals" style="height:auto;">
         </picture>
+
         <hr>
+        
+      <div class="headers">
+        <h3>H3: Student orgs!</h3>
+      </div>
+
       <img src="http://quote.ucsd.edu/alchemy/files/2012/03/AlchemyLogo2012Lower.jpg" alt="Alchemy logo">
       <p>Hello!</p>
 
