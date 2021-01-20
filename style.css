@@ -101,6 +101,33 @@ details:hover summary {
     justify-content: center;
 }
 
+.grid-container {
+    box-sizing: content-box;
+    display: grid;
+    margin-top: 10px;
+    margin-bottom: 300px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 75px 75px 75px 75px auto;
+}
+
+.grid-name {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.grid-button {
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.grid-select {
+    grid-column-start: 4;
+}
+
+.grid-misc {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
 /* Footer */
 .footer-wrapper {
     background: #333;
