@@ -1,66 +1,69 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-      <meta name="author" content="Kevin Jang">
-      <title>Kevin Jang's Website</title>
-      <link rel="main" href="index.html">
-      <link rel="stylesheet" href="style.css">
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-      <style>
-        .headers {
-          border: 2px outset black;
-          background-color: darkkhaki;
-          text-align: center;
-        }
-      </style>
-  </head>
-  <body>
-    <header class="header-wrapper">
-    <p id="header-name"><b>Kevin Jang</b></p> 
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Kevin Jang">
+  <title>Kevin Jang's Website</title>
+  <link rel="main" href="index.html">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+<style>
+    .headers {
+      border: 2px outset black;
+      background-color: darkkhaki;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header-wrapper">
+    <p id="header-name"><b>Kevin Jang</b></p>
     <p>This is the header area.</p>
-    <nav> 
+    <nav>
       <ul>
         <li><a href="#">Nav: Primary link</a></li>
-        <li><a href="#">Nav: Secondary link</a></li>
+        <li><a href="#" target="none">Nav: Secondary link</a></li>
       </ul>
     </nav>
-    </header>
-    <hr>
+  </header>
+  <hr>
 
 
-    <main class="content-wrapper">
-      <p>Start of main area.</p>
-      <div class="headers">
-        <h1>H1: Kevin Jang's HTML Page</h1>
-      </div>
-      <aside>
-        <p>Aside: Is this my website?</p> 
-      </aside>
-      <ol>
-        <li>Poetry section</li>
-        <li>Alchemy section</li>
-        <li>Dragon Boat section</li>
-        <li>Misc section</li>
-      </ol>
-      <p>Code:</p>
-      <code>
+  <main class="content-wrapper">
+    <p>Start of main area.</p>
+    <div class="headers">
+      <h1>H1: Kevin Jang's HTML Page</h1>
+    </div>
+    <aside>
+      <p>Aside: Is this my website?</p>
+    </aside>
+    <ol>
+      <li>Poetry section</li>
+      <li>Alchemy section</li>
+      <li>Dragon Boat section</li>
+      <li>Misc section</li>
+    </ol>
+    <p>Code:</p>
+    <code>
         let FALSE = \x y -> \y
       </code>
 
-      <div class="headers">
-        <h2>H2: Poetry</h2>
-      </div>
+    <div class="headers">
+      <h2>H2: Poetry</h2>
+    </div>
 
-        <p>December 2, 2020 #67<br>
-          [F, Autumn, Snow, Warmth]<br>  
-          <b>Kevin Jang</b></p>
+    <p>December 2, 2020 #67<br>
+      [F, Autumn, Snow, Warmth]<br>
+      <b>Kevin Jang</b>
+    </p>
 
-        <p>(details: open to read the poem)</p>
-        <details>
-          <summary><span style="color:blue">Fuzzy Fractals</span></summary>
-          <pre>
+    <p>(details: open to read the poem)</p>
+    <details>
+      <summary><span style="color:blue">Fuzzy Fractals</span></summary>
+      <pre>
             <i>The fuzzy powder sprinkles all over me
             Like the spicy cinnamon flaring my nostrils</i>  
             So I avoid the cool <strong>sharpness</strong> of that tickle.  
@@ -71,54 +74,56 @@
             Those fluttering doilies twinkle in symmetry,
             Layering the white patio for us  
             <em>In time for the sweater seasons.</em>
-          </pre> 
-        </details>
+          </pre>
+    </details>
 
-        <p>Canvas, svg, and picture:</p>
-        <canvas id="myCanvas" width="300" height="75" style="border:2px solid #000000;">
-        </canvas>
+    <p>Canvas, svg, and picture:</p>
+    <canvas id="myCanvas" width="300" height="75" style="border:2px solid #000000;">
+    </canvas>
 
-        <svg width="300" height="200">
-          <polygon points="100,10 40,198, 190,78 10,78 160,198" 
-          style="fill:white;stroke: #3dc4e6;stroke-width: 5;"/>
-        </svg>
+    <svg width="300" height="200">
+      <polygon points="100,10 40,198, 190,78 10,78 160,198" style="fill:white;stroke: #3dc4e6;stroke-width: 5;" />
+    </svg>
 
-        <picture>
-          <source media="(max-height:300px)" srcset="fractals1.jpg">
-          <source media="(max-height:300px)" srcset="fractals3.jpg">
-         <img src="fractals2.jpg" alt="Fractals" style="height:auto;">
-        </picture>
+    <picture>
+      <source media="(max-height:300px)" srcset="fractals1.jpg">
+      <source media="(max-height:300px)" srcset="fractals3.jpg">
+      <img src="fractals2.jpg" alt="Fractals" style="height:auto;">
+    </picture>
 
-        <hr>
+    <hr>
 
-      <div class="headers">
-        <h3>H3: Student orgs!</h3>
-      </div>
+    <div class="headers">
+      <h3>H3: Student orgs!</h3>
+    </div>
 
-      <img src="http://quote.ucsd.edu/alchemy/files/2012/03/AlchemyLogo2012Lower.jpg" alt="Alchemy logo">
-      <p>Hello!</p>
+    <img src="http://quote.ucsd.edu/alchemy/files/2012/03/AlchemyLogo2012Lower.jpg" alt="Alchemy logo">
+    <p>Hello!</p>
 
-      <p>Embedded video using iframe.</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/tibtCOR_lX0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <p>Embedded file using video and source tags.</p>
-      <video width="560" height="315" controls>
-        <source src="UCSDDragonBoatRecruitment2019.mp4" type="video/mp4">
+    <p>Embedded video using iframe.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tibtCOR_lX0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    <p>Embedded file using video and source tags.</p>
+    <video width="560" height="315" controls>
+      <source src="UCSDDragonBoatRecruitment2019.mp4" type="video/mp4">
       Your browser does not support the video tag.
-      </video>
-      
-      <figure>
-        <img src="Workoutplan.png" alt="Workout plan">
-          <figcaption>Fig.1 - Dragon Boat workout plan for Friday.
-      </figcaption>
-      </figure>
+    </video>
 
-      <table>
-        <caption>
-          Caption: Personal Workout Plan for Core
-        </caption>
-        <colgroup>
-          <col span="3" style="background-color: #ebd17f;">
-        </colgroup>
+    <figure>
+      <img src="Workoutplan.png" alt="Workout plan">
+      <figcaption>Fig.1 - Dragon Boat workout plan for Friday.
+      </figcaption>
+    </figure>
+    <div class="container">
+
+    <table>
+      <caption>
+        Caption: Personal Workout Plan for Core
+      </caption>
+      <colgroup>
+        <col span="3" style="background-color: #ebd17f;">
+      </colgroup>
         <tr>
           <th>Circuit (x3)</th>
           <th>Time</th>
@@ -164,105 +169,108 @@
           <td>45s</td>
           <td></td>
         </tr>
-      </table>
+    </table>
+    <p>Flexed to the side</p>
+  </div>
 
-      <div class="headers">
-        <h1>H1: Misc</h1>
-      </div>
+    <div class="headers">
+      <h1>H1: Misc</h1>
+    </div>
 
-      <p>Audio file of (G)I-DLE - MOON</p>
-      <audio controls>
-        <source src="MOON.mp3" type="audio/mpeg">
+    <p>Audio file of (G)I-DLE - MOON</p>
+    <audio controls>
+      <source src="MOON.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
-      </audio>
+    </audio>
 
-      <form>
-        <label>First name:</label><br>
-        <input type="text" value="Kevin"><br>
-        <label>Last name:</label><br>
-        <input type="text" value="Jang"><br>
-        <label>Button:</label><br>
-        <input type="button" value="Ping!"><br>
-        <label>Check this box:</label><br>
-        <input type="checkbox"><br>
+    <form>
+      <label>First name:</label><br>
+      <input type="text" value="Kevin"><br>
+      <label>Last name:</label><br>
+      <input type="text" value="Jang"><br>
+      <label>Button:</label><br>
+      <input type="button" value="Ping!"><br>
+      <label>Check this box:</label><br>
+      <input type="checkbox"><br>
 
-        <label>Color:</label><br>
-        <input type="color"><br>
+      <label>Color:</label><br>
+      <input type="color"><br>
 
-        <label>Date:</label><br>
-        <input type="date"><br>
+      <label>Date:</label><br>
+      <input type="date"><br>
 
-        <label>Time:</label><br>
-        <input type="time"><br>
+      <label>Time:</label><br>
+      <input type="time"><br>
 
-        <label>Month:</label><br>
-        <input type="month"><br>
+      <label>Month:</label><br>
+      <input type="month"><br>
 
-        <label>Week:</label><br>
-        <input type="week"><br>
+      <label>Week:</label><br>
+      <input type="week"><br>
 
-        <label>Email:</label><br>
-        <input type="email" value="k1jang@ucsd.edu"><br>
+      <label>Email:</label><br>
+      <input type="email" value="k1jang@ucsd.edu"><br>
 
-        <label>Upload file:</label><br>
-        <input type="file"><br>
+      <label>Upload file:</label><br>
+      <input type="file"><br>
 
-        <label>Phone number:</label><br>
-        <input type="number" value="1234567890"><br>
+      <label>Phone number:</label><br>
+      <input type="number" value="1234567890"><br>
 
-        <p>Ten input types were used! :)</p>
+      <p>Ten input types were used! :)</p>
 
-        <fieldset>
-          <legend>Dropdowns:</legend>
-          <label for="plants">Pick a plant:</label>
-          <select name="plants" id="plants">
-            <optgroup label="Red">
-              <option value="poppy">Poppy</option>
-              <option value="rose">Rose</option>
-            </optgroup>
-            <optgroup label="Purple">
-              <option value="chrysanthemum">Chrysanthemum</option>
-              <option value="lilac">Lilac</option>
-            </optgroup>
-            <option value="daisy">Daisy</option>
-          </select><br>
+      <fieldset>
+        <legend>Dropdowns:</legend>
+        <label for="plants">Pick a plant:</label>
+        <select name="plants" id="plants">
+          <optgroup label="Red">
+            <option value="poppy">Poppy</option>
+            <option value="rose">Rose</option>
+          </optgroup>
+          <optgroup label="Purple">
+            <option value="chrysanthemum">Chrysanthemum</option>
+            <option value="lilac">Lilac</option>
+          </optgroup>
+          <option value="daisy">Daisy</option>
+        </select><br>
 
-          <label>Choose a color from the dropdown:</label>
-          <input list="colors" name="colors">
-          <datalist id="colors">
-            <option value="Red"></option>
-            <option value="Green"></option>
-            <option value="Blue"></option>
-          </datalist>
-        </fieldset>
+        <label>Choose a color from the dropdown:</label>
+        <input list="colors" name="colors">
+        <datalist id="colors">
+          <option value="Red"></option>
+          <option value="Green"></option>
+          <option value="Blue"></option>
+        </datalist>
+      </fieldset>
 
-        <label for="comments">Questions:</label><br>
-        <textarea id="comments" name="comment" rows="2" cols="50">
+      <label for="comments">Questions:</label><br>
+      <textarea id="comments" name="comment" rows="2" cols="50">
           Enter text here
         </textarea>
-      </form>
+    </form>
 
-      <p>End of main area.</p>
-    </main>
+    <p>End of main area.</p>
+  </main>
 
-    <p>MARCO</p>
-    <button onclick="showContent()">Show template content</button>
-    <template>
-      <p>POLO</p>
-    </template>
-    <script>
-      function showContent() {
-        var temp = document.getElementsByTagName("template")[0];
-        var clon = temp.content.cloneNode(true);
-        document.body.appendChild(clon);
-      }
-      </script>
+  <p>MARCO</p>
+  <button onclick="showContent()">Show template content</button>
+  <template>
+    <p>POLO</p>
+  </template>
+  <script>
+    function showContent() {
+      var temp = document.getElementsByTagName("template")[0];
+      var clon = temp.content.cloneNode(true);
+      document.body.appendChild(clon);
+    }
+  </script>
 
-    <section>
-      <footer class="footer-wrapper">
-        <hr>
-	      <p>This is the footer area.</p>
-      </footer>
-    </section>
-  </body>
+  <section>
+    <footer class="footer-wrapper">
+      <hr>
+      <p>This is the footer area.</p>
+    </footer>
+  </section>
+</body>
+
 </html>
