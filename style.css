@@ -2,12 +2,21 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media screen and (min-width: 768px) {
-    main {
-        font-family: 'Poppins', sans-serif;
-        font-size: 2rem;
+main p {
+    font-family: 'Poppins', sans-serif;
+}
+
+@media all and (min-width: 768px) {
+    main p {
+        font-family: 'Times New Roman', Times, serif;
     }
 }
+
+picture {
+    visibility: visible;
+}
+
+
 header, footer {
     color: rgba(255, 60, 0, 0.815);
     text-align: center;
@@ -21,9 +30,15 @@ li {
     display: block;
     float: left;
 }
+
 a {
     text-decoration: none;
     color: rgb(10, 206, 255);
+}
+
+a[none] {
+    text-align: right;
+    background-color: #aaaaaa;
 }
 
 a:hover {
@@ -65,6 +80,7 @@ main div h1 {
     background: rgb(255, 255, 255);
 }
 
+
 .headers h2 {
     border-style: dashed;
     border-color: hsl(204, 100%, 50%);
@@ -73,6 +89,18 @@ main div h1 {
     border-width: 20px;
     border-radius: 40px;
 }
+
+details:hover summary {
+    color: red;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
 /* Footer */
 .footer-wrapper {
     background: #333;
