@@ -8,8 +8,8 @@
   <link rel="main" href="index.html">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
-<style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+  <style>
     .headers {
       border: 2px outset black;
       background-color: darkkhaki;
@@ -117,13 +117,13 @@
     </figure>
     <div class="container">
 
-    <table>
-      <caption>
-        Caption: Personal Workout Plan for Core
-      </caption>
-      <colgroup>
-        <col span="3" style="background-color: #ebd17f;">
-      </colgroup>
+      <table>
+        <caption>
+          Caption: Personal Workout Plan for Core
+        </caption>
+        <colgroup>
+          <col span="3" style="background-color: #ebd17f;">
+        </colgroup>
         <tr>
           <th>Circuit (x3)</th>
           <th>Time</th>
@@ -169,9 +169,9 @@
           <td>45s</td>
           <td></td>
         </tr>
-    </table>
-    <p>Flexed to the side</p>
-  </div>
+      </table>
+      <p>Flexed to the side</p>
+    </div>
 
     <div class="headers">
       <h1>H1: Misc</h1>
@@ -184,41 +184,51 @@
     </audio>
 
     <form>
-      <label>First name:</label><br>
-      <input type="text" value="Kevin"><br>
-      <label>Last name:</label><br>
-      <input type="text" value="Jang"><br>
-      <label>Button:</label><br>
-      <input type="button" value="Ping!"><br>
-      <label>Check this box:</label><br>
-      <input type="checkbox"><br>
+      <div class="grid-container">
+        <div class="grid-name">
+          <label>First name:</label><br>
+          <input type="text" value="Kevin"><br>
+          <label>Last name:</label><br>
+          <input type="text" value="Jang"><br>
+        </div>
 
-      <label>Color:</label><br>
-      <input type="color"><br>
+        <div class="grid-button"> 
+          <label>Button:</label><br>
+          <input type="button" value="Ping!"><br>
+          <label>Check this box:</label><br>
+          <input type="checkbox"><br>
+        </div>
 
-      <label>Date:</label><br>
-      <input type="date"><br>
+        <div class="grid-select">
+          <label>Color:</label><br>
+          <input type="color"><br>
 
-      <label>Time:</label><br>
-      <input type="time"><br>
+          <label>Date:</label><br>
+          <input type="date"><br>
 
-      <label>Month:</label><br>
-      <input type="month"><br>
+          <label>Time:</label><br>
+          <input type="time"><br>
 
-      <label>Week:</label><br>
-      <input type="week"><br>
+          <label>Month:</label><br>
+          <input type="month"><br>
 
-      <label>Email:</label><br>
-      <input type="email" value="k1jang@ucsd.edu"><br>
+          <label>Week:</label><br>
+          <input type="week"><br>
 
-      <label>Upload file:</label><br>
-      <input type="file"><br>
+          <label>Email:</label><br>
+          <input type="email" value="k1jang@ucsd.edu"><br>
+        </div>
 
-      <label>Phone number:</label><br>
-      <input type="number" value="1234567890"><br>
+        <div class="grid-misc">
+          <label>Upload file:</label><br>
+          <input type="file"><br>
 
-      <p>Ten input types were used! :)</p>
+          <label>Phone number:</label><br>
+          <input type="number" value="1234567890"><br>
 
+          <p>Ten input types were used! :)</p>
+        </div>
+      </div>
       <fieldset>
         <legend>Dropdowns:</legend>
         <label for="plants">Pick a plant:</label>
