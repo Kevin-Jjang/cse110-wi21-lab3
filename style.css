@@ -6,7 +6,7 @@ main p {
     font-family: 'Poppins', sans-serif;
 }
 
-@media all and (min-width: 768px) {
+@media (min-width: 768px) {
     main p {
         font-family: 'Times New Roman', Times, serif;
     }
@@ -107,7 +107,7 @@ details:hover summary {
     margin-top: 10px;
     margin-bottom: 300px;
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: 75px 75px 75px 75px auto;
+    grid-template-rows: 75px 45px 50px 75px auto;
 }
 
 .grid-name {
