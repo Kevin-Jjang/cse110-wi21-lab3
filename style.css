@@ -7,6 +7,9 @@ header, footer {
     text-align: center;
 }
 
+ul {
+    list-style-type: none;
+}
 a {
     text-decoration: none;
     color: rgb(10, 206, 255);
@@ -20,6 +23,9 @@ a:active {
     color: rgb(10, 206, 255);
 }
 
+main div h1 {
+    background-color: green;
+}
 /* Header */
 .header-wrapper { 
     box-sizing: content-box;
@@ -31,6 +37,10 @@ a:active {
     z-index: 1000;
 }
 
+#header-name {
+    font-size: 20px;
+    color: #fff;
+}
 /* Site Content */
 .content-wrapper {
     box-sizing: content-box;
